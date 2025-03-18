@@ -4,8 +4,9 @@ age=int(input('age'))
 print('first program')
 print('age calculator')
 
-days=age*365
-minutes=age*525498
-seconds=age*31556926
+days = age * 365
+hours = age * 8765
+minutes = age * 525498
+seconds = age * 31556926
 
-print(name,'has been alive for',days,'days',minutes,'minutes',seconds,'seconds')
+print(name,'has been alive for',days,'days',hours,'hours',minutes,'minutes',seconds,'seconds')
